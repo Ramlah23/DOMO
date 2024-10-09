@@ -1,10 +1,12 @@
 import { Box, Button, Input, Text, Grid, GridItem, FormControl, FormLabel, Textarea } from '@chakra-ui/react';
 import Header from './Componente/header/header';
+import Footer from './Componente/footer/footer'
 
 function App() {
   return (
     <>
       <Header />
+      
 
       {/* Grid responsivo */}
       <Grid 
@@ -85,6 +87,7 @@ function App() {
         </GridItem>
 
       </Grid>
+      <Footer />
     </>
   );
 }
